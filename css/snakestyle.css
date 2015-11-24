@@ -1,0 +1,107 @@
+html, body {
+    background-color: #000;
+    height: 100%;
+}
+header {
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+    position: center;
+}
+
+body {
+   background-image: url('../images/snake.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font: 100%/1.5 sans-serif;
+  overflow: hidden; 
+}
+
+p {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    position: center;
+}
+
+#game {
+    width: 850px;
+    margin-left: 30%;
+    margin-top: 100px;
+   
+}
+
+#gameField {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-right: 20px;
+    border: 5px solid black;
+    background:greenyellow;
+    position:relative;
+    
+}
+
+#gameInfo {
+    width: 200px;
+    height: 500px;
+    float: left;
+    border: 1px #6f5a2d solid;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    background: darkgrey;
+    font-family:sans-serif; 
+    font-weight:bold; 
+    text-align:center;
+    color:darkblue;
+}
+
+.bodypart {
+    height: 15px;
+    width: 15px;
+    position:absolute;
+    background: limegreen;
+     -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#points {
+    margin:5px;
+    height:120px;
+    margin-top:15px
+}
+
+#rules {
+    margin:5px; 
+    font-size:12pt;
+}
+
+.food {
+    height: 12px;
+    width: 12px;
+    position:absolute;
+    background: red;
+    border-color: black;
+    border-style: solid;
+}
+
+#gamemsg {
+    font-size:16pt;
+    margin-bottom:35px;
+    visibility:hidden;
+    color:#E01B6A;
+}
+
+.snakepic {
+    width: 300px;
+    height: 300px;
+    background-image: url('/home/sam/Snake/images/snake.jpg');
+    background-size: cover;
+    position: relative;
+}
